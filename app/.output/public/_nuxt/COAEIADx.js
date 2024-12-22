@@ -1,0 +1,1 @@
+import{d as t,t as o,v as s,x as a,N as d,_ as n}from"./DCQOYHCu.js";const l={class:"body",style:{"min-height":"100vh"}},c=t({__name:"default",setup(_){return console.log("loaded"),(e,r)=>(o(),s("section",l,[a("div",null,[d(e.$slots,"default",{},void 0,!0)])]))}}),p=n(c,[["__scopeId","data-v-1de15796"]]);export{p as default};
