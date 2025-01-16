@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+Тестовое задание.
+Средствами Nuxt.js реализуйте небольшое SPA приложение для заметок.
+Каждая заметка имеет название и список задач (todo list), далее - Todo. Каждый пункт Todo состоит из чекбокса и относящейся к нему текстовой подписи.
+Приложение состоит всего из 2х страниц.
+На главной странице отображается список всех заметок. Для каждой заметки отображается заголовок и Todo, сокращенный до нескольких пунктов, без возможности отмечать. Действия на главной:
+перейти к созданию новой заметки
+перейти к изменению
+удалить (необходимо подтверждение)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Страница изменения заметки позволяет определенную заметку отредактировать, отметить пункты Todo, а после сохранить изменения. Действия с заметкой:
+сохранить изменения
+отменить редактирование (необходимо подтверждение)
+удалить (необходимо подтверждение)
+отменить внесенное изменение
+повторить отмененное изменение Действия с пунктами Todo:
+добавить
+удалить
+отредактировать текст
+отметить как выполненный
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Требования к функционалу:
+Необходимо реализовать синхронизацию состояния задач с хранилищем, чтобы после перезагрузки страницы ранее введенные данные были доступны.
+Адаптивная верстка
+Кросс-браузерность
+Тестовое задание должно быть предоставлено в следующем виде Dockerfile и docker-compose.yaml, позволяющие развернуть локально командой docker-compose up работоспособную копию приложения
